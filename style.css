@@ -252,7 +252,7 @@ body{
 .workingon{
     font-family: 'Droid Sans', sans-serif;
     font-size: 25px;
-    color: darkgrey;
+    color: black;
     
 }
 .em{
@@ -272,4 +272,12 @@ font-family: 'Droid Sans', sans-serif;
   height: 750px;
 
     
+}
+.projectlinks{
+    font-size: 30px;
+    color: #00688B;
+       
+}
+.projectlinks a:link  {
+    text-decoration: none;
 }
