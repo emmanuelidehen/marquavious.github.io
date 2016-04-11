@@ -39,17 +39,7 @@ body{
 }
 .maintext {
     text-align: center;
-
-
-/*
-#video-bg-elem {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-height: 100%;
-	min-width: 100%;
-*/
-			}
+}
 
 .navbar-custom {
     color: #FFFFFF;
@@ -92,8 +82,8 @@ body{
 /*    height:1200px;*/
 /*    background-color: black;*/
   background:#DCDCDC;
-  padding-bottom: 650px;
-/*  margin:2px 40px; */
+  padding-bottom: 600px;
+/*  margin:2px 40px */
   font-size:20px;
   line-height:34px; 
   border-radius:4px;
@@ -105,13 +95,13 @@ body{
 .black .intro{
     font-family: 'Droid Sans', sans-serif;
     z-index: 1;
-    color: #E59400;
+    color: #00688B;
     text-align: center;
     font-size: 25px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
-    padding-top: 30px;
+/*    padding-top: px;*/
     line-height: 1.5;
 }
 
@@ -121,7 +111,17 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     z-index: 2;
-    color: #E59400;
+    color: #00688B;
+    text-align: center;
+    font-size: 50px
+}
+.black .headername.fadein{
+    word-spacing: 9px;
+    font-family: 'Droid Sans', sans-serif;
+/*    padding-top: 0px;*/
+    padding-bottom:10px;
+    z-index: 2;
+    color: #00688B;
     text-align: center;
     font-size: 50px
 }
@@ -129,7 +129,7 @@ body{
 .black .introconstruction{
     font-family: 'Droid Sans', sans-serif;
     z-index: 1;
-    color: #E59400;
+    color: #00688B;
     text-align: left;
     font-size: 25px;
     padding-left: 50px;
@@ -195,4 +195,81 @@ body{
     margin-top: 50px;
     
 }
+.headernamelanguage{
+    word-spacing: 3px;
+    font-family: 'Droid Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+    color: #E59400;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.black .headername.lang{
+    word-spacing: 9px;
+    font-family: 'Droid Sans', sans-serif;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    z-index: 2;
+    color: #E59400;
+    text-align: center;
+    font-size: 50px
+}
 
+.mylang{
+    word-spacing: 9px;
+    font-family: 'Droid Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+    color: #E59400;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.black.two{
+
+  background:white;
+  padding-bottom: 50px;
+/*  margin:2px 40px; */
+  font-size:20px;
+  line-height:34px; 
+  border-radius:4px;
+  height: 400px;
+}
+.headername.projects{
+    font-family: 'Droid Sans', sans-serif;
+    word-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+    color: #00688B;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.workingon{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 25px;
+    color: darkgrey;
+    
+}
+.em{
+    font-size: 16px;
+    color: darkgray;
+    
+}
+.grey.projects{
+font-family: 'Droid Sans', sans-serif;
+    
+  background:#DCDCDC;
+  padding-bottom: 50px;
+/*  margin:2px 40px; */
+  font-size:20px;
+  line-height:34px; 
+  border-radius:4px;
+  height: 750px;
+
+    
+}
