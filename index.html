@@ -1,48 +1,165 @@
-<html ng-app>
+<!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="wimmain.css">
-    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
-    <script type="text/javascript" src="js/angular.min%20(1).js"></script>
-    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
-    
+    <link rel="import" href="bower_components/webcomponentsjs/webcomponents.js">
+    <link rel="import" href="bower_components/bower_components/paper-input/paper-input.html">
+    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    </style>
 </head>
-<body>
-    <div value="init div"  ng-init="profileInfo = 
-                                      {profilePic: '64.jpg', firstName: 'Jason', givenName: 'Jason Bryner', phone: '(704)-576-9257', email: 'jasonbryner@gmail.com', location: 'Collegedale TN', birthday: 'May 4, 1973', gender: 'Male', bio: 'George Washington was the first President of the United States the Commander-in-Chief of the Continental Army during the American Revolutionary War, and one of the Founding Fathers of the United States'}"></div>
+    <body>
     
-    <a href="notifications.html">
-        <div class="homepagenotificationsbutton">
-            <p class="homepagenotificationsname">{{profileInfo.givenName}}</p>
-            <img class="homepagenotificationsimage" src="user_profile_pics/{{profileInfo.profilePic}}">
-            <div class="homepagenotificationsnumber">3</div>
+    <div class="container-fluid">
+    
+    <!-- Card -->
+    <div class="row card1">
+    <div class="col-md-6">
+    <link rel="import" href="bower_components/bower_components/paper-card/paper-card.html">
+    <paper-card heading="Marquavious Draggon">
+    <paper-card elevation="4" heading="Intro">
+    <div class="card-content"><div class="text-center"><h4>Hi, I'm Marq. I am an aspiring developer and I have a burning passion for philosophy and innovation. I love technology and I plan to make the world a place through it. I create products that help people grow and become more equipped to create and reach their goals. In my freetime, I do music production, life coaching, and light blogging.</h4></div></div>
+    </paper-card>
+    </div>
+    </div>
+    
+    <!-- Card -->
+    <div class="row card2">
+    <div class="col-md-6">
+    <link rel="import" href="bower_components/bower_components/paper-card/paper-card.html">
+    <paper-card heading="Code">
+    <paper-card elevation="4" heading="GitHub">
+    <div class="card-content"><div class="text-center"><h4>Although I've just started taking code seriously, I have been learning at a rapid rate. Checkout my code and projects below...</h4></div></div>
+    <div class="card-content">
+       <div class="row">
+       <div class="text-center">
+       
         </div>
-    </a>
-    <a href="signin.html">
-        <img class="homepagesettingsbutton" src="web_images/gear-512.png">
-    </a>
+        </div>
+    </div>
+    </paper-card>
+    </div>
+    </div>
+    
+    <!-- Card -->
+    <div class="row card3">
+    <div class="col-md-6">
+    <link rel="import" href="bower_components/bower_components/paper-card/paper-card.html">
+    <paper-card heading="Music">
+    <paper-card elevation="4" heading="SoundCloud">
+    <div class="card-content">
+     <div class="text-center">
+     <h4>
+      I have been producing for a couple years of and on. I have exsperiance in making tracks, mixing them and laying them out. Ive recently delted most of my songs to work on a new style. Have a listen below..</h4></div>
+       <div class="text-center">
+       </div>
+       <div class="text-center">
+<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/191968983&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>         
+       </div>       
         
-    <div class='circle-container'>
-
-        <a href='newWIM.html' class='deg0'>
-            <img id="homepagetopbutton" class="homepagebuttondiv" style="margin: -75px -50px;" src="web_images/add-512%20(1).png"> 
-            <p id="homepagetopbuttonlable" class="homepagebuttonlable">New WIM</p>
-
-
-        </a>
-        <a href='profilepage.html' class='deg45'>
-            <img class="homepagebuttondiv" style="margin: 0px -30px;" src="web_images/profile.png"> 
-            <p class="homepagebuttonlable">My profile</p>
-
-        </a>
-        <a href='currentWIMs.html' class='deg135'>
-            <img class="homepagebuttondiv" style="margin: 0px -30px;" src="web_images/feed.png"> 
-            <p class="homepagebuttonlable">Current WIMs</p>
-
-        </a>
-
+    </div>
+    </paper-card>
+    </div>
     </div>
 
+    <!-- Card -->
+   <div class="row card4">
+   <div class="col-md-6">
+   <link rel="import" href="bower_components/bower_components/paper-card/paper-card.html">
+   <paper-card heading="Marquavious Draggon">
+   <paper-card elevation="4" heading="Social Media">
+   <div class="card-content">
+   <div class="text-center"><h4>Below you can find links to my social media. Feel free to follow to see updates on future creations.</h4></div>
+   <div class="text-center">
+   <a class="twitter-timeline" href="https://twitter.com/marq_draggon" data-widget-id="736286732082151424">Tweets by @marq_draggon</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+  <div class="text-center">
+   <link rel="import" href="bower_components/bower_components/iron-icons/iron-icons.html">
+   <a href="https://twitter.com/marq_draggon"alt="Twitter"><link rel="import" href="bower_components/bower_components/paper-button/paper-button.html">
+   
+   <paper-button raised><iron-icon icon="icons:label-outline"></iron-icon>Twitter</paper-button>
+   </a>
+ <a href="https://www.instagram.com/marq_draggon/"alt="Instagram">
+   
+   <paper-button raised><iron-icon icon="icons:label-outline"></iron-icon>Instagram</paper-button>
+   </a>
+ <a href="https://www.facebook.com/marquavious.smith.925"alt="FaceBook">
+   
+   <paper-button raised><iron-icon icon="icons:label-outline"></iron-icon>FaceBook</paper-button>
+   </a>
+ <a href="#"alt="#">
+   
+   <paper-button raised><iron-icon icon="icons:label-outline"></iron-icon>SC:MARQ.O</paper-button>
+   </a>
+   
+   </div>
+   </div>
+    </paper-card>
+    </div>
+    </div>
+                                                                                              
+                                                                             
+    <!-- Card -->
+    <div class="row card5">
+    <div class="col-md-6">
+    <link rel="import" href="bower_components/bower_components/paper-card/paper-card.html">
+    <paper-card heading="Skills">
+    <paper-card elevation="4" heading="Tools | Langueges | FrameWorks">
+    <div class="card-content"><div class="text-center">
+    <h4>Below is a simple list of my current skill-sets.</h4>
+    <br>
+    </div>
+    <h4 class="text-center">Langueges</h4>
+    <div class="text-center">
+    <paper-button raised></iron-icon>HTML</paper-button>
+    <paper-button raised></iron-icon>CSS</paper-button>
+    <paper-button raised></iron-icon>C++</paper-button>
+    <paper-button raised></iron-icon>RUBY</paper-button>
+    <paper-button raised></iron-icon>PYTHON</paper-button>
+		<paper-button raised></iron-icon>JAVASCRIPT</paper-button>
+		</div>
+		<h4 class="text-center">Frameworks</h4>
+		<div class="text-left">
+    <paper-button raised></iron-icon>POLYMER</paper-button>
+    <paper-button raised></iron-icon>BOOTSTRAP</paper-button>
+		</div>
+		<h4 class="text-center">Tools</h4>
+		<div class="text-left">
+    <paper-button raised></iron-icon>BOWER</paper-button>
+    <paper-button raised></iron-icon>BRACKETS</paper-button>
+    <paper-button raised></iron-icon>UNITY</paper-button>
+    <paper-button raised></iron-icon>ANDROID SDK</paper-button>
+    <paper-button raised></iron-icon>CMD LINE</paper-button>
+		<paper-button raised></iron-icon>GIT HUB</paper-button>
+		<paper-button raised></iron-icon>ABLETON LIVE 9</paper-button>
+		<paper-button raised></iron-icon>FL STUDIO</paper-button>
+		<paper-button raised></iron-icon>PHOTOSHOP</paper-button>
+		<paper-button raised></iron-icon>GIMP</paper-button>
+		<paper-button raised></iron-icon>GOOGLE</paper-button>
+		</div>
+				
 
-</body>
+    </paper-card>
 
+    </div>                                                                                                
+                                                                                                                                                                                                                                                                                       
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+	   </div>
+
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
 </html>

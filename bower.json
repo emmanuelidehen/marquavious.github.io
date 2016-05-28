@@ -1,0 +1,20 @@
+{
+  "name": "marquavious.github.io",
+  "homepage": "https://github.com/marquavious/marquavious.github.io",
+  "authors": [
+    "marquavious <marq.draggon@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}
