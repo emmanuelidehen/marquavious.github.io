@@ -9,10 +9,10 @@ h1 {
 	font-family: 'Source Code Pro', helvetica, sans-serif;
 	font-size: 50px;
 	position: relative;
-    top: 40%;
+    top: 40% !important;
     letter-spacing: 7px;
     -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    
 }
 
 .name {
