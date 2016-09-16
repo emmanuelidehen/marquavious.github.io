@@ -1,104 +1,38 @@
-/*.card-bio{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-}*/
 
-
-h4{
-	font-family: 'Oswald', sans-serif;
-	letter-spacing: .5px;
-	line-height: 30px;
+html,body{
+    background-color: black;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-		font-family: 'Oswald', sans-serif;
-	  letter-spacing: .5px;
-  
+h1 {
+    color: white;
+	display: inline; 
+	font-family: 'Source Code Pro', helvetica, sans-serif;
+	font-size: 50px;
+	position: relative;
+    top: 40%;
+    letter-spacing: 7px;
 }
-.background-lit{ 
-		position: fixed;
-		bottom: 0px; 
-		width: 100%;
-	height: 100%
+
+h1 {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
-  
-}
-body{
+
+.name {
+
+    text-align: center;
+    margin: auto;
     height: 100%;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
-.card1{
-    margin: 15px;
-}
-
-.card2{
-    margin: 15px;
-    
-}
-
-.card3{
-    margin: 15px;
-    
-}
-
-.card4{
-    margin: 15px;
-    
-}
-
-.card5{
-    margin: 15px;
-    
-}
-
-.card6{
-    margin: 15px;
-    
-}
-
-.card7{
-    margin: 15px;
-    
-}
-
-.card8{
-    margin: 15px;
-    
-}
-.cardz{
-    margin-top: 150px;
-    
-}
-
-
-
-.profile{
-		width: 100%;
-		height: 50%;
-		border-radius: 10px;
-		border-color: #bbb;
-}
-
-
-
-paper-button{
-	text-decoration: none;
-}
-
-a:link{
-  text-decoration: none!important;
-}
-
-.footer{
-  color: white;
-}
-p{
-  font-size: 18px;
-}
-
-.some-buttons{
- padding: 10px!important;
+a {
+    color: white;
+    text-decoration: none;
 }
