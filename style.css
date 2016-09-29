@@ -37,21 +37,40 @@ a {
     position: relative;
     top: 38%;
     margin: 0 auto;
-    width: 28%;
+    /*width: 28%;*/
+    width: 100%;
 }
 
 .fa {
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 2.4%;
+    padding-right: 2.4%;
     -o-transition: color 0.2s linear;
--moz-transition: color 0.2s linear;
--khtml-transition: color 0.2s linear;
--webkit-transition: color 0.2s linear;
--ms-transition: color 0.2s linear;
-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -khtml-transition: color 0.2s linear;
+    -webkit-transition: color 0.2s linear;
+    -ms-transition: color 0.2s linear;
+    transition: color 0.2s linear;
 }
 
 .fa:hover {
     color: #3F51B5;
+}
+
+
+
+@media (max-width: 500px) {
+
+    h1 {
+        top: 24% !important;
+    	font-size: 35px;
+    }
+    .icons {
+        top: 26%;
+    }
+    .fa {
+        /*padding-left: 10px;
+        padding-right: 10px;*/
+    }
+
 }
