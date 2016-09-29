@@ -1,21 +1,20 @@
 
 html,body{
     background-color: black;
+    width: 100%;
 }
 
 h1 {
     color: white;
-/*	display: inline; */
-	font-family: 'Source Code Pro', helvetica, sans-serif;
+    font-family: 'Source Code Pro', helvetica;
 	font-size: 50px;
 	position: relative;
-    top: 40% !important;
-    letter-spacing: 7px;
+    top: 33% !important;
+    letter-spacing: 3px;
     -webkit-font-smoothing: antialiased;
-    
 }
 
-.name {
+.container {
     position: absolute;
     margin: auto;
     height: 100%;
@@ -25,7 +24,29 @@ h1 {
     text-align: center;
 }
 
+.lastname {
+    color: #3F51B5;
+    display: inline;
+}
+
 a {
     color: white;
     text-decoration: none;
+}
+
+.icons {
+    position: relative;
+    top: 32%;
+    margin: 0 auto;
+    width: 28%;
+}
+
+.fa {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fa:hover {
+    color: #3F51B5;
 }
