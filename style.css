@@ -7,7 +7,7 @@ html,body{
 h1 {
     color: white;
     font-family: 'Source Code Pro', helvetica;
-	font-size: 50px;
+	font-size: 75px;
 	position: relative;
     top: 36% !important;
     letter-spacing: 3px;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .lastname {
-    color: #3F51B5;
+    color: #A49365;
     display: inline;
 }
 
@@ -54,7 +54,36 @@ a {
 }
 
 .fa:hover {
-    color: #3F51B5;
+    color: #A49365;
+}
+
+.lastname{
+    display: inline;
+    /*color: white;*/
+    -o-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -khtml-transition: color 0.4s linear;
+    -webkit-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+    display: inline;
+}
+.firstname{
+    -o-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -khtml-transition: color 0.4s linear;
+    -webkit-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+    display: inline;
+}
+.firstname:hover{
+    color: #A49365;
+
+}
+
+.lastname:hover {
+    /*color: #3F51B5;*/
 }
 
 .aboutcontainer{
@@ -66,7 +95,7 @@ a {
 }
 
 .special{
-    color: #3F51B5;
+    color: #A49365;
     display: inline;
 }
 
@@ -78,6 +107,14 @@ a {
     padding: 3%;
     text-align: left;
     top:18%
+
+}
+
+.lit{
+    left: 25%;
+    bottom: 27%;
+    /*background-color: red;*/
+    position: absolute;;
 
 }
 
